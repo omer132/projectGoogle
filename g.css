@@ -1,0 +1,49 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1; 
+
+}
+
+.all{
+    text-align: center;
+}
+
+.omer{display: flex;}
+
+input {
+	font-size: 15px;
+	font-family: sans-serif;
+	padding: 10px;
+	margin: 10px;
+}
+
+#ara  {
+    height: 40;
+    border: none;
+    cursor: pointer;
+    transition: border 0.3s ease
+}
+
+#gorsel{
+    height: 40;
+    border: none;
+    cursor: pointer;
+    transition: border 0.3s ease
+}
+
+#ara:hover , #gorsel:hover{
+    border: 1px solid;
+}
+
+#searchbar{
+    padding: 8px 36px 8px 21px;
+    border-radius: 30px;
+    width: 50%;
+}
+
+button{
+    font-size: 16px;
+    padding: 10px 20px;
+}
